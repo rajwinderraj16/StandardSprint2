@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "bbaebfeb-bb48-4953-8a88-f9103f71b3c2",
+		"name": "groupkt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllCountries",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e9b29191-127c-401a-8d83-165acffc51dd",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Albania\");",
+							"});",
+							"",
+							"",
+							"pm.test(\"Content-Type is present\", function () {",
+							"    pm.response.to.have.header(\"Content-Type\");",
+							"});",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.groupkt.com/country/get/all",
+					"protocol": "http",
+					"host": [
+						"www",
+						"groupkt",
+						"com"
+					],
+					"path": [
+						"country",
+						"get",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

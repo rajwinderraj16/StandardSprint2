@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "347a776c-54ac-4814-8557-e34a3618512b",
+		"name": "date.json_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Date",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "1d6c9e38-bd8c-4d8b-a003-cdc24c1c07ad",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"09-10-2019\");",
+							"});",
+							"",
+							"",
+							"",
+							"",
+							"pm.test(\"Status code name has string\", function () {",
+							"    pm.response.to.have.status(\"OK\");",
+							"});",
+							"",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"",
+							"pm.test(\"Content-Type is present\", function () {",
+							"    pm.response.to.have.header(\"Content-Type\");",
+							"});",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://date.jsontest.com/",
+					"protocol": "http",
+					"host": [
+						"date",
+						"jsontest",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

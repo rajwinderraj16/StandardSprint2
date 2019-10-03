@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "5e456ae5-0f08-4108-8560-4430bed36dbc",
+		"name": "dog_ceo_APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Dog_breed",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "6042cfd1-ad66-4f3d-965f-1eeeb25190cf",
+						"exec": [
+							"  ",
+							"   ",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"bulldog\");",
+							"});",
+							"",
+							"",
+							"pm.test(\"Status code name has string\", function () {",
+							"    pm.response.to.have.status(\"OK\");",
+							"});",
+							"",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Content-Type is present\", function () {",
+							"    pm.response.to.have.header(\"Content-Type\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dog.ceo/api/breeds/list/all",
+					"protocol": "https",
+					"host": [
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"api",
+						"breeds",
+						"list",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "a3d3485f-2634-49ce-8ca1-2daf2f4ca075",
+		"name": "VALIDATE_JSON",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "VALIDATE_ARRAY",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "8621519c-4e4d-4272-bd4e-4e15eee8a0c9",
+						"exec": [
+							"pm.test(\"Status code is 503\", function () {",
+							"    pm.response.to.have.status(503);",
+							"});",
+							"",
+							"",
+							"",
+							"",
+							"pm.test(\"Status code name has string\", function () {",
+							"    pm.response.to.have.status(\"Service Unavailable\");",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://validate.jsontest.com/?json=%5BJSON-code-to-validate%5D",
+					"protocol": "http",
+					"host": [
+						"validate",
+						"jsontest",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "json",
+							"value": "%5BJSON-code-to-validate%5D"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

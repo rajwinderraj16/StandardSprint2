@@ -1,0 +1,119 @@
+﻿2019-09-02T17:06:20.4886939+12:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-09-02T17:06:20.4886939+12:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.377 in Framework clr40 in x86 mode execution started
+2019-09-02T17:06:20.4886939+12:00;VSTestExecutionThread;Info;TestAdapter Location: C:\MarsFramework\packages\SpecRun.Runner.3.0.377\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-09-02T17:06:20.5136953+12:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\MarsFramework\SpecFlow\bin\Debug\SpecFlow.dll
+2019-09-02T17:06:20.5136953+12:00;VSTestExecutionThread;Info;Output folder configured to "C:\MarsFramework\TestResults" (default)
+2019-09-02T17:06:20.5136953+12:00;VSTestExecutionThread;Info;Profile: 
+2019-09-02T17:06:20.5456972+12:00;VSTestExecutionThread;Info;Log file path: C:\MarsFramework\TestResults\Unnamed project__2019-09-02T170620.log
+2019-09-02T17:06:20.5476973+12:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-09-02T17:06:20.5586979+12:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-09-02T17:06:20.5676984+12:00;Thread#13;Info;Checking license
+2019-09-02T17:06:20.5676984+12:00;Thread#13;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-09-02T17:06:20.5686985+12:00;Thread#13;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-09-02T17:06:20.5856995+12:00;Thread#13;Info;Evaluation mode: test execution starts in 10 seconds... (this delay is removed in the registered version)
+2019-09-02T17:06:30.5862715+12:00;Thread#13;Info;Evaluation delay finished.
+2019-09-02T17:06:30.5992722+12:00;Thread#13;Info;License check completed
+2019-09-02T17:06:30.5992722+12:00;Thread#13;Info;starting test run
+2019-09-02T17:06:30.6162732+12:00;Thread#13;Info;Discovering target: Default
+2019-09-02T17:06:30.6162732+12:00;Thread#13;Info;Discovering tests from assembly: C:\MarsFramework\SpecFlow\bin\Debug\SpecFlow.dll
+2019-09-02T17:06:31.0983007+12:00:Appdomain Disposed
+2019-09-02T17:06:31.0983007+12:00;Thread#13;Info;Discovered tests from assembly: C:\MarsFramework\SpecFlow\bin\Debug\SpecFlow.dll
+2019-09-02T17:06:31.0993008+12:00:Test Suite Dump
+2019-09-02T17:06:31.1023010+12:00:#0: Unnamed project/ - 
+2019-09-02T17:06:31.1023010+12:00:#1: Default - 
+2019-09-02T17:06:31.1023010+12:00:#2: SpecFlow - 
+2019-09-02T17:06:31.1023010+12:00:#3: change password for account - 
+2019-09-02T17:06:31.1303026+12:00:#4: ChangePasssword - TestAssembly:SpecFlow/Feature:change+password+for+account/Scenario:ChangePasssword
+2019-09-02T17:06:31.1303026+12:00:End: Test Suite Dump
+2019-09-02T17:06:31.1543040+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T17:06:31.1563041+12:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-09-02T17:06:31.1563041+12:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-09-02T17:06:31.1613044+12:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T17:06:31.1613044+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-09-02T17:06:31.1613044+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-09-02T17:06:31.1613044+12:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-09-02T17:06:31.1623044+12:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-09-02T17:06:31.1633045+12:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-09-02T17:06:31.1663046+12:00:Thread #0: creating new test thread executor for SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-09-02T17:06:31.1683048+12:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-09-02T17:06:31.1693048+12:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-09-02T17:06:31.1703049+12:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-09-02T17:06:31.2323084+12:00:Thread#0: Test #4/0 is started on thread #0
+2019-09-02T17:06:31.3853172+12:00:Thread#0:T:-> Loading plugin C:\MarsFramework\SpecFlow\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-09-02T17:06:31.3923176+12:00:Thread#0:T:-> Using default config
+2019-09-02T17:06:31.4443205+12:00:Thread#0:B:Given user in the profile tabb
+2019-09-02T17:06:31.6113301+12:00:Thread#0:T:error: Exception has been thrown by the target of an invocation.
+2019-09-02T17:06:31.6123301+12:00:Thread#0:B:And user click on the  change passwordd
+2019-09-02T17:06:31.6133302+12:00:Thread#0:T:skipped because of previous errors
+2019-09-02T17:06:31.6133302+12:00:Thread#0:B:When user enter the current new and confirm passwordd
+2019-09-02T17:06:31.6133302+12:00:Thread#0:T:skipped because of previous errors
+2019-09-02T17:06:31.6143303+12:00:Thread#0:B:Then user click on the save buttonn
+2019-09-02T17:06:31.6143303+12:00:Thread#0:T:skipped because of previous errors
+2019-09-02T17:06:31.6303312+12:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2019-09-02T17:06:31.6313312+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T17:06:31.6313312+12:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-09-02T17:06:31.6313312+12:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-09-02T17:06:31.6313312+12:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T17:06:31.6313312+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-09-02T17:06:31.6313312+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-09-02T17:06:31.6313312+12:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-09-02T17:06:31.6313312+12:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-09-02T17:06:31.6313312+12:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-09-02T17:06:31.6473322+12:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 0.4140237 seconds
+2019-09-02T17:06:31.6493323+12:00:Thread#0: Test #4/1 is started on thread #0
+2019-09-02T17:06:31.6493323+12:00:Thread#0:T:warning: The previous FeatureContext was not disposed.
+2019-09-02T17:06:31.6493323+12:00:Thread#0:B:Given user in the profile tabb
+2019-09-02T17:06:31.6513324+12:00:Thread#0:T:error: Exception has been thrown by the target of an invocation.
+2019-09-02T17:06:31.6513324+12:00:Thread#0:B:And user click on the  change passwordd
+2019-09-02T17:06:31.6513324+12:00:Thread#0:T:skipped because of previous errors
+2019-09-02T17:06:31.6513324+12:00:Thread#0:B:When user enter the current new and confirm passwordd
+2019-09-02T17:06:31.6523324+12:00:Thread#0:T:skipped because of previous errors
+2019-09-02T17:06:31.6523324+12:00:Thread#0:B:Then user click on the save buttonn
+2019-09-02T17:06:31.6523324+12:00:Thread#0:T:skipped because of previous errors
+2019-09-02T17:06:31.6533325+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T17:06:31.6533325+12:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-09-02T17:06:31.6533325+12:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-09-02T17:06:31.6533325+12:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-09-02T17:06:31.6533325+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-09-02T17:06:31.6533325+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-09-02T17:06:31.6533325+12:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-09-02T17:06:31.6533325+12:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-09-02T17:06:31.6533325+12:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-09-02T17:06:31.6533325+12:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.0040002 seconds
+2019-09-02T17:06:31.6533325+12:00:Thread#0: Test #4/2 is started on thread #0
+2019-09-02T17:06:31.6543326+12:00:Thread#0:T:warning: The previous FeatureContext was not disposed.
+2019-09-02T17:06:31.6543326+12:00:Thread#0:B:Given user in the profile tabb
+2019-09-02T17:06:31.6553326+12:00:Thread#0:T:error: Exception has been thrown by the target of an invocation.
+2019-09-02T17:06:31.6563327+12:00:Thread#0:B:And user click on the  change passwordd
+2019-09-02T17:06:31.6563327+12:00:Thread#0:T:skipped because of previous errors
+2019-09-02T17:06:31.6563327+12:00:Thread#0:B:When user enter the current new and confirm passwordd
+2019-09-02T17:06:31.6563327+12:00:Thread#0:T:skipped because of previous errors
+2019-09-02T17:06:31.6563327+12:00:Thread#0:B:Then user click on the save buttonn
+2019-09-02T17:06:31.6563327+12:00:Thread#0:T:skipped because of previous errors
+2019-09-02T17:06:31.6573327+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-09-02T17:06:31.6573327+12:00:Thread#:Scheduler: at the end of normal test queue
+2019-09-02T17:06:31.6573327+12:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-09-02T17:06:31.6573327+12:00:Thread#0:Scheduler: No more tests for thread
+2019-09-02T17:06:31.6593328+12:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0050002 seconds
+2019-09-02T17:06:31.6713335+12:00:Appdomain Disposed
+2019-09-02T17:06:31.6733336+12:00:Trying to cancel thread
+2019-09-02T17:06:31.6733336+12:00:Thread cancelled
+2019-09-02T17:06:31.6803340+12:00:Thread#-1:Scheduler: get next test for thread -1
+2019-09-02T17:06:31.6803340+12:00:Thread#:Scheduler: at the end of normal test queue
+2019-09-02T17:06:31.6803340+12:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-09-02T17:06:31.6853343+12:00;Thread#13;Info;test run finished
+2019-09-02T17:06:31.6863344+12:00;Thread#13;Info;publishing test results
+2019-09-02T17:06:31.6923347+12:00;Thread#13;Info;test results published
+2019-09-02T17:06:31.6923347+12:00;Thread#13;Info;generating reports
+2019-09-02T17:06:31.8113415+12:00;Thread#13;Info;Starting external report generation process
+2019-09-02T17:06:36.4870481+12:00;Thread#13;Info;Successfully generated reports.
+2019-09-02T17:06:36.5026481+12:00;Thread#13;Info;Successfully generated reports
+2019-09-02T17:06:36.5026481+12:00:Total: 1 (test executions: 3)
+2019-09-02T17:06:36.5026481+12:00:Succeeded: 0
+2019-09-02T17:06:36.5026481+12:00:Ignored: 0
+2019-09-02T17:06:36.5026481+12:00:Pending: 0
+2019-09-02T17:06:36.5026481+12:00:Skipped: 0
+2019-09-02T17:06:36.5026481+12:00:Failed: 1
+2019-09-02T17:06:36.5182482+12:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-09-02T17:06:36.5182482+12:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\MarsFramework\TestResults\Unnamed project__2019-09-02T170620.html'
+========== End of log file ==========

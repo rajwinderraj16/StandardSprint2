@@ -1,0 +1,12 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <m:CountriesUsingCurrencyResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+         <m:CountriesUsingCurrencyResult>
+            <m:tCountryCodeAndName>
+               <m:sISOCode>IN</m:sISOCode>
+               <m:sName>India</m:sName>
+            </m:tCountryCodeAndName>
+         </m:CountriesUsingCurrencyResult>
+      </m:CountriesUsingCurrencyResponse>
+   </soap:Body>
+</soap:Envelope>

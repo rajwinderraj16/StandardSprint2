@@ -1,0 +1,7 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <m:CountryFlagResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+         <m:CountryFlagResult>http://www.oorsprong.org/WebSamples.CountryInfo/Flags/New_Zealand.jpg</m:CountryFlagResult>
+      </m:CountryFlagResponse>
+   </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,20 @@
+{
+	"info": {
+		"_postman_id": "922b9a18-beed-4da7-8131-129f23242f88",
+		"name": "http://echo.jsontest.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "InsertKey",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}

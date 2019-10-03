@@ -1,0 +1,7 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <m:LanguageNameResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+         <m:LanguageNameResult>Hindi</m:LanguageNameResult>
+      </m:LanguageNameResponse>
+   </soap:Body>
+</soap:Envelope>

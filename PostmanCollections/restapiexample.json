@@ -1,0 +1,380 @@
+{
+	"info": {
+		"_postman_id": "0a32d693-b9d9-4897-a92b-8fe4a97de9f3",
+		"name": "restapiexample_APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get_Employee",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "33a07dc8-1d97-4c69-aca6-9418bb59adbf",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "a0d84281-0adb-479f-84e3-58371af7ba03",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"",
+							"pm.test(\"Content-Type is present\", function () {",
+							"    pm.response.to.have.header(\"Content-Type\");",
+							"});",
+							"",
+							"pm.test(\"Status code name has string\", function () {",
+							"    pm.response.to.have.status(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Base}}employees",
+					"host": [
+						"{{Base}}employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Employee_ID",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "5fa96d2b-10da-444b-a339-0fbb491b1436",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "9dfd5608-0624-426a-b0ad-ea3806b2d87f",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"jack l\");",
+							"",
+							"});",
+							"",
+							"pm.test(\"Content-Type is present\", function () {",
+							"    pm.response.to.have.header(\"Content-Type\");",
+							"});",
+							"",
+							"pm.test(\"Status code name has string\", function () {",
+							"    pm.response.to.have.status(\"OK\");",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Base}}employee/160821",
+					"host": [
+						"{{Base}}employee"
+					],
+					"path": [
+						"160821"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "d36f312c-5a25-44e3-a513-57036dbb3796",
+						"exec": [
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "66147c37-2c0b-47dd-92d7-22802ca2b43c",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Jashan\");",
+							"});",
+							"",
+							"pm.test(\"Content-Type is present\", function () {",
+							"    pm.response.to.have.header(\"Content-Type\");",
+							"});",
+							"",
+							"pm.test(\"Status code name has string\", function () {",
+							"    pm.response.to.have.status(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"JashanRaj\",\"salary\":\"123\",\"age\":\"23\"}"
+				},
+				"url": {
+					"raw": "{{Base}}create",
+					"host": [
+						"{{Base}}create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateEmp",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "f3c44b9e-37c9-461d-aeaf-239bd040d89c",
+						"exec": [
+							"postman.setNextRequest(\"GET\");"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "c1f74a43-ebde-4648-9cf6-c54f63ae5bcd",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Mickey\");",
+							"});",
+							"",
+							"pm.test(\"Content-Type is present\", function () {",
+							"    pm.response.to.have.header(\"Content-Type\");",
+							"});",
+							"",
+							"pm.test(\"Status code name has string\", function () {",
+							"    pm.response.to.have.status(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Mickey\",\"salary\":\"123\",\"age\":\"23\"}"
+				},
+				"url": {
+					"raw": "{{Base}}update/155840",
+					"host": [
+						"{{Base}}update"
+					],
+					"path": [
+						"155840"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteEmp",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "576f18ee-e3bf-41b6-86fb-9da131ecf80c",
+						"exec": [
+							"postman.setNextRequest(\"GET\");"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "949541f8-686c-40b8-b5c3-1ba4b335e1e7",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"successfully! deleted Records\");",
+							"});",
+							"pm.test(\"Content-Type is present\", function () {",
+							"    pm.response.to.have.header(\"Content-Type\");",
+							"});",
+							"pm.test(\"Status code name has string\", function () {",
+							"    pm.response.to.have.status(\"OK\");",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{Base}}delete/155836",
+					"host": [
+						"{{Base}}delete"
+					],
+					"path": [
+						"155836"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "9c81b7e0-df18-4695-9194-9180a95506ca",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "77792d42-1423-4dad-9532-58a2b22dc440",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "3227bb76-8571-4436-8360-4fb868ce5b69",
+			"key": "Base",
+			"value": "http://dummy.restapiexample.com/api/v1/",
+			"type": "string"
+		}
+	]
+}

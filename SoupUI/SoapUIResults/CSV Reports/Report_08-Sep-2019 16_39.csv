@@ -1,0 +1,13 @@
+Test Suite,Test Case,Test Step,Step Type,Step Status,Result message,Execution Date
+CountryInfoServiceSoapBinding TestSuite,CountryInfoServiceSoapBinding TestSuite,CapitalCity,request,UNKNOWN,,08-Sep-2019 16_39
+CountryInfoServiceSoapBinding TestSuite,CountryInfoServiceSoapBinding TestSuite,CountryCurrency,request,UNKNOWN,,08-Sep-2019 16_39
+CountryInfoServiceSoapBinding TestSuite,CountryInfoServiceSoapBinding TestSuite,CountryFlag,request,UNKNOWN,,08-Sep-2019 16_39
+CountryInfoServiceSoapBinding TestSuite,CountryInfoServiceSoapBinding TestSuite,CountryIntPhoneCode,request,UNKNOWN,,08-Sep-2019 16_39
+CountryInfoServiceSoapBinding TestSuite,CountryInfoServiceSoapBinding TestSuite,CountryName,request,UNKNOWN,,08-Sep-2019 16_39
+CountryInfoServiceSoapBinding TestSuite,CountryInfoServiceSoapBinding TestSuite,FullCountryInfo,request,UNKNOWN,,08-Sep-2019 16_39
+CountryInfoServiceSoapBinding TestSuite,CountryInfoServiceSoapBinding TestSuite,CountriesUsingCurrency,request,UNKNOWN,,08-Sep-2019 16_39
+CountryInfoServiceSoapBinding TestSuite,CountryInfoServiceSoapBinding TestSuite,CurrencyName,request,UNKNOWN,,08-Sep-2019 16_39
+CountryInfoServiceSoapBinding TestSuite,CountryInfoServiceSoapBinding TestSuite,CountryISOCode,request,UNKNOWN,,08-Sep-2019 16_39
+CountryInfoServiceSoapBinding TestSuite,CountryInfoServiceSoapBinding TestSuite,LanguageISOCode,request,UNKNOWN,,08-Sep-2019 16_39
+CountryInfoServiceSoapBinding TestSuite,CountryInfoServiceSoapBinding TestSuite,LanguageName,request,UNKNOWN,,08-Sep-2019 16_39
+CountryInfoServiceSoapBinding TestSuite,CountryInfoServiceSoapBinding TestSuite,CountryProperty,properties,OK,,08-Sep-2019 16_39

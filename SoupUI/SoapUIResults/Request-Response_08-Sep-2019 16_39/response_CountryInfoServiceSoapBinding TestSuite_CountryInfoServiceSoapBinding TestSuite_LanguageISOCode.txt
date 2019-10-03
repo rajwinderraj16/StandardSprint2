@@ -1,0 +1,7 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <m:LanguageISOCodeResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+         <m:LanguageISOCodeResult>hin</m:LanguageISOCodeResult>
+      </m:LanguageISOCodeResponse>
+   </soap:Body>
+</soap:Envelope>

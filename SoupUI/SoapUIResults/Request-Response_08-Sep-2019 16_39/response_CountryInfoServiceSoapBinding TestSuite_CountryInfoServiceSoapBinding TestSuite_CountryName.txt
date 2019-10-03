@@ -1,0 +1,7 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <m:CountryNameResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+         <m:CountryNameResult>New Zealand</m:CountryNameResult>
+      </m:CountryNameResponse>
+   </soap:Body>
+</soap:Envelope>

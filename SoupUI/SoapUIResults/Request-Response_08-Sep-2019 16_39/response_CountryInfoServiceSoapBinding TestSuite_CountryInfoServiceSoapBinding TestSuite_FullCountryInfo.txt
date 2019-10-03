@@ -1,0 +1,21 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <m:FullCountryInfoResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+         <m:FullCountryInfoResult>
+            <m:sISOCode>NZ</m:sISOCode>
+            <m:sName>New Zealand</m:sName>
+            <m:sCapitalCity>Wellington</m:sCapitalCity>
+            <m:sPhoneCode>64</m:sPhoneCode>
+            <m:sContinentCode>OC</m:sContinentCode>
+            <m:sCurrencyISOCode>NZD</m:sCurrencyISOCode>
+            <m:sCountryFlag>http://www.oorsprong.org/WebSamples.CountryInfo/Flags/New_Zealand.jpg</m:sCountryFlag>
+            <m:Languages>
+               <m:tLanguage>
+                  <m:sISOCode>eng</m:sISOCode>
+                  <m:sName>English</m:sName>
+               </m:tLanguage>
+            </m:Languages>
+         </m:FullCountryInfoResult>
+      </m:FullCountryInfoResponse>
+   </soap:Body>
+</soap:Envelope>

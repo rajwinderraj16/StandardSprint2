@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "374ea339-e849-407c-a915-691b9d360bf1",
+		"name": "redditAPIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f51402c6-56a5-4800-91e2-592433a4c15d",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"is_robot_indexable\");",
+							"});",
+							"",
+							"pm.test(\"Content-Type is present\", function () {",
+							"    pm.response.to.have.header(\"Content-Type\");",
+							"});",
+							"",
+							"pm.test(\"Status code name has string\", function () {",
+							"    pm.response.to.have.status(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.reddit.com/r/javascript.json?utm_source=reddit&utm_medium=usertext&utm_name=javascript&utm_content=t1_drb3cdb",
+					"protocol": "https",
+					"host": [
+						"www",
+						"reddit",
+						"com"
+					],
+					"path": [
+						"r",
+						"javascript.json"
+					],
+					"query": [
+						{
+							"key": "utm_source",
+							"value": "reddit"
+						},
+						{
+							"key": "utm_medium",
+							"value": "usertext"
+						},
+						{
+							"key": "utm_name",
+							"value": "javascript"
+						},
+						{
+							"key": "utm_content",
+							"value": "t1_drb3cdb"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

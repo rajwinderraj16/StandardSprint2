@@ -1,0 +1,7 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <m:CountryIntPhoneCodeResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+         <m:CountryIntPhoneCodeResult>64</m:CountryIntPhoneCodeResult>
+      </m:CountryIntPhoneCodeResponse>
+   </soap:Body>
+</soap:Envelope>
